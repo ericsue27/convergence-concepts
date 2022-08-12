@@ -1,0 +1,36 @@
+.item {
+  padding: 60px;
+}
+
+.item img {
+  border-radius: 50px;
+  box-shadow: 10px 10px 15px;
+  -webkit-user-drag: none;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.container h5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.inner-carousel {
+  display: flex;
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+}
+
+.reset_container {
+  position: relative;
+  left: 50%;
+  cursor: pointer;
+}
