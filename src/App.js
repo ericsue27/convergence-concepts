@@ -1,10 +1,8 @@
 import "./App.css";
 import { motion } from "framer-motion";
-// import images from "./images";
 import { useRef, useState, useEffect } from "react";
 
 function App() {
-  // const [width, setWidth] = useState(0);
   const carousel = useRef();
 
   const [photos, setPhotos] = useState([]);
